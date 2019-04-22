@@ -40,14 +40,14 @@ public class Shoe {
 	/**
 	 * Returns the card in the Array at param count
 	 * @param count the card to be drawn from the array
-	 * @return
+	 * @return a Card object representing the card being drawn
 	 */
 	public Card drawCard(int count) {
 		return cards[count];
 	}
 	/**
-	 * 
-	 * @return
+	 * gets the amount of cards in the shoe
+	 * @return an integer representing the amount of cards in the shoe
 	 */
 	public int getNumberOfCardsInShoe() {
 		return cards.length;
